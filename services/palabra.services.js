@@ -11,11 +11,11 @@ const getStringsCompleto = async () => {
 };
 
 const postNombreNuevo = async (palabra) => {
-  const nueva = await model.postNombreNuevo(palabra.palabra)
-  return nueva
-  }
+  const nueva = await model.postNombreNuevo(palabra.palabra);
+  return nueva;
+};
 export default {
-    getStrings,
-    getStringsCompleto,
-    postNombreNuevo
+  getStrings,
+  getStringsCompleto,
+  postNombreNuevo,
 };
